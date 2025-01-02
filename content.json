@@ -1,0 +1,52 @@
+{
+    "name":"Hiron",
+    "about": "Experienced Java Developer with a proven track record in building scalable, distributed systems and microservice architectures. Currently managing 55+ microservices at Accenture for critical billing and subscription platforms, leveraging Java, Spring Boot, and CI/CD tools like Bamboo and PCF. Skilled in databases (MySQL, MongoDB, Oracle) and Agile feature deployment, with achievements including automating customer billing processes, contributing to $14M monthly revenue. Certified in Google Cloud and Python, with notable open-source contributions. Passionate about delivering impactful software solutions that drive business success.","skills": ["Java", "Python", "JavaScript", "Spring Boot", "React.js", "MySQL", "MongoDB", "Oracle", "Docker", "Kubernetes", "Bamboo", "PCF", "Google Cloud", "AWS"],
+                  
+    "expriences": [
+        {
+          "title": "Software Engineer",
+          "company": "Accenture",
+          "description": "Developed 55+ microservices for billing and subscription platforms, with a focus on Spring Boot and Java. Automated customer billing, contributing to $14M monthly revenue. Managed CI/CD pipelines (Bamboo, PCF) and database technologies (MySQL, MongoDB, Oracle)."
+        },
+        {
+          "title": "Software Development Intern",
+          "company": "TCS",
+          "description": "Developed a RESTful API for a banking application, enabling customer transactions and account management. Integrated third-party services for payment processing and user authentication."
+        }
+      ],
+    "projects": [
+        {
+          "name": "CourseShare",
+          "description": "A platform for self-paced learning offering features like diverse course libraries, seamless video streaming, and flexible subscription plans.",
+          "technologies": ["Java", "Spring Boot", "React.js", "AWS S3", "RabbitMQ"],
+          "link": "https://lnkd.in/dKX2KDXq"
+        },
+        {
+          "name": "AMAR SARKAR",
+          "description": "An Android app providing government scheme details with user authentication, multilingual support, and dynamic data loading.",
+          "technologies": ["Android", "REST APIs", "Volley", "Picasso"],
+          "link": "https://github.com/hiron1999/AMAR-SARKAR-This-is-one-window-portal-for-providing-information-about-proceedings-and-schemes-etc-"
+        }
+      ],
+      "open_source": [
+        {
+          "project": "Checkstyle",
+          "description": "Contributed to improving Java code standard adherence by updating Javadoc files and creating variable checks.",
+          "pull_request": "https://github.com/checkstyle/checkstyle/pull/9702"
+        }
+      ],
+      "education": [
+    {
+      "degree": "Bachelor of Technology in Computer Science and Engineering",
+      "institution": "BPPIMT (Maulana Abul Kalam Azad University of Technology)",
+      "years": "2017 - 2021",
+      "score": "8.6 cgpa"
+    },
+    {
+      "degree": "Higher Secondary Examination (Science)",
+      "institution": "GUPTIPARA HIGH SCHOOL",
+      "years": "2015 - 2017",
+      "score": "81.4%"
+    }
+  ]
+}

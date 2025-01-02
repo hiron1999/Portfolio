@@ -1,0 +1,266 @@
+
+body{
+    margin: 0 ;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    /* width: 100%; */
+    position: relative;
+    background-image: radial-gradient(#805374 1px, transparent 1px) ;
+  background-size: 26px 26px;
+  font-weight: bold;
+  font-family: sans-serif, Arial;
+    
+}
+
+#mainContainer{
+   position: relative;
+    /* width: 100%; */
+    /* top: 20%; */
+    height: 100vh;
+    margin: 6%;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    z-index: 2;
+    
+}
+#cover{
+    background: linear-gradient(60deg , #57555536 60%, rgb(227, 193, 214) 50% );
+    position: relative;
+    z-index: -1;
+    top: 0%;
+    width: 100%;
+    height: auto;
+    filter: brightness(80%);
+    z-index: 1;
+}
+#cover_img{
+    position: sticky;
+    left:50%;
+    top:10%;
+    filter: drop-shadow(5px 8px 3px #0d0d0c5b) brightness(80%); 
+    
+    z-index: 2;
+}
+#cover > p{
+    font-size: 8rem;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /* width: auto; */
+    width: 40%;
+    /* color: #f27171c2; */
+    -webkit-text-fill-color: #00000097;
+    /* -webkit-text-stroke: white 1px; */
+    filter: drop-shadow(4px 7px  #f7f7f548);
+    /* white-space: pre-wrap; */
+    /* overflow-wrap: break-word; */
+    overflow: hidden;
+    
+    
+    
+}
+#intro {
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  background-clip: text;
+  
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+  font-size: 4em;
+  /* margin-bottom: 5%; */
+}
+
+#about p{
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    
+    width:45%;
+}
+
+card{
+    background-color: #1c1b1b;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #e0e3c578;
+    gap: 5%;
+}
+
+#skills{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin-top: 2%;
+    gap:0.6em;
+    height: 15%;
+    width: 100%;
+    
+   
+}
+.skill{
+    border: 1px solid #e0e3c578;
+    border-radius: 0.45em;
+    color: aliceblue;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.25em;
+    margin: 0.15em;
+
+}
+.skill:hover {
+    transform:scale(1.1);
+    box-shadow: #e0e3c5 1px 1px 5px;
+}
+.skill >p{
+    font-size: 0.9em;
+    color: #e0e3c5;
+    margin: 0.25em;
+}
+.exprience{
+    border:#e0e3c578 1px solid;
+    padding: 2%;
+    border-radius: 0.35em;
+    background-image: linear-gradient(
+    50deg,
+    hsl(0deg 0% 2%) 0%,
+    hsl(59deg 1% 6%) 16%,
+    hsl(60deg 1% 10%) 23%,
+    hsl(60deg 2% 13%) 29%,
+    hsl(60deg 2% 16%) 34%,
+    hsl(60deg 2% 19%) 39%,
+    hsl(60deg 2% 22%) 43%,
+    hsl(60deg 2% 25%) 48%,
+    hsl(60deg 2% 25%) 52%,
+    hsl(60deg 3% 22%) 57%,
+    hsl(60deg 3% 18%) 61%,
+    hsl(60deg 4% 15%) 66%,
+    hsl(60deg 4% 12%) 71%,
+    hsl(59deg 6% 9%) 77%,
+    hsl(60deg 18% 5%) 84%,
+    hsl(0deg 0% 0%) 100%
+  );
+    margin: 2%;
+    cursor: pointer;
+    transition: display 1s ease-in-out; /* Smooth transition */
+}
+.exprience >.body{
+    display: none;
+}
+.exprience:hover >.body{
+    display: block;
+    
+}
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+    gap: 5%;
+   height: auto;
+}
+section{
+    margin: 2% 0;
+}
+section >h2{
+    font-size: 2.5em;
+  background: -webkit-linear-gradient(rgb(180, 174, 180), rgb(13, 13, 13));
+  
+  -webkit-text-stroke: 0.15px rgba(255, 255, 255, 0.323) ;
+  font-family: sans-serif, Arial;
+  background-clip: text;
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+
+}
+.project{
+    width: 30%;
+    margin: 1%;
+    padding: 2%;
+    background-image: linear-gradient(180deg , #1c1b1b 100%, rgb(212, 34, 22)  );
+    border-radius: 10px;
+    /* text-align: center; */
+    box-shadow: 5px 5px 5px #e0e3c578;
+    flex:1 0 30%;
+    min-width: 200px;
+    transition: background-image 1s ease-in-out; /* Smooth transition */
+
+}
+
+
+card.project:hover{
+    background-image: linear-gradient(
+    50deg,
+    hsl(0deg 0% 2%) 0%,
+    hsl(59deg 1% 6%) 16%,
+    hsl(60deg 1% 10%) 23%,
+    hsl(60deg 2% 13%) 29%,
+    hsl(60deg 2% 16%) 34%,
+    hsl(60deg 2% 19%) 39%,
+    hsl(60deg 2% 22%) 43%,
+    hsl(60deg 2% 25%) 48%,
+    hsl(60deg 2% 25%) 52%,
+    hsl(60deg 3% 22%) 57%,
+    hsl(60deg 3% 18%) 61%,
+    hsl(60deg 4% 15%) 66%,
+    hsl(60deg 4% 12%) 71%,
+    hsl(59deg 6% 9%) 77%,
+    hsl(60deg 18% 5%) 84%,
+    hsl(0deg 0% 0%) 100%
+  );
+}
+
+
+.project .tech span{
+    background-color: #90918ca0;
+    color: rgb(252, 252, 252);
+    padding: 2%;
+    border-radius: 5px;
+    margin: 0.25em;
+    display: inline-block;
+    
+}
+.project .tech{
+   margin-bottom: 5%;
+}
+
+a.linkButton{
+    background-color: rgba(255, 255, 255, 0.542);
+    padding: 0.5em;
+    border-radius: 0.42em;
+    text-decoration: none;
+    font-size: 0.9em;
+    color: black;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    vertical-align: bottom;
+    height: auto;
+    width: auto;
+}
+a.linkButton:hover{
+    background-color: rgb(253, 251, 251);
+    
+}
+.linkButton > svg{
+    height: auto;
+    width: 1em;
+    vertical-align: middle;
+    transform: scale(1.3);
+}
+
+.education{
+    display: block;
+    width: 100%;
+    background-color: rgb(240, 246, 246);
+    padding: 2%;
+    margin: 2%;
+    border-radius: 15px;
+    color: #000;
+}
+.education p, span{
+   font-weight: bold;
+   color: #000000b7;
+}
