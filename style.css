@@ -5,11 +5,20 @@ body{
     background-color: rgb(0, 0, 0);
     /* width: 100%; */
     position: relative;
-    background-image: radial-gradient(#805374 1px, transparent 1px) ;
-  background-size: 26px 26px;
+    /* background-image: radial-gradient(#d28abf 1px, transparent 1px) ; */
+    
+    
+  /* background-size: 26px 26px; */
   font-weight: bold;
   font-family: sans-serif, Arial;
-    
+  background-color: #000000;
+opacity: 1;
+background-image:  radial-gradient(#df95c2 1px, transparent 1px), radial-gradient(#df95c2 1px, #000000 1px);
+background-size: 40px 40px;
+background-position: 0 0,20px 20px;
+
+
+  
 }
 
 #mainContainer{
@@ -73,9 +82,10 @@ body{
 #about{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 2%;
-    gap: 5%;
+    gap: 2%;
     text-align: left;
     /* justify-content: flex-end; */
     background-color: #e0e3c515;
@@ -89,15 +99,19 @@ body{
     border-radius: 55%;
     background-image: radial-gradient(circle at 45.47% -1.79%, #ff58ff 0, #e451ff 16.67%, #b048ff 33.33%, #783cf2 50%, #3930d1 66.67%, #0025b2 83.33%, #001c96 100%);
     width: 250px;
-    height: auto;
+    height: 280px;
     filter: brightness(80%);
 }
+.desc{
 
+   width: calc(100% - 280px);
+    min-width: 400px;
+}
 #about  p{
     font-size: 1.2em;
     font-family: 'Courier New', Courier, monospace;
     
-    width:100%;
+    /* width:auto; */
 }
 
 card{
@@ -169,11 +183,22 @@ card{
     cursor: pointer;
     transition: display 1s ease-in-out; /* Smooth transition */
 }
+.exprience h3{
+    font-size: 2em;
+    -webkit-text-stroke: 0.25px rgba(237, 229, 229, 0.323) ;
+    background-clip: text;
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+}
 .exprience >.body{
     display: none;
 }
 .exprience:hover >.body{
     display: block;
+    
+}
+.exprience:hover h3{
+    text-shadow: #e6e1f064 1px 1px 1px;
     
 }
 #projects{
@@ -186,7 +211,7 @@ card{
 }
 section{
     margin: 2% 0;
-    text-align: center;
+   
 }
 section >h2{
     font-size: 2.5em;
@@ -197,7 +222,7 @@ section >h2{
   background-clip: text;
   /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
-
+  text-align: center;
 }
 .project{
     width: 30%;
@@ -278,7 +303,7 @@ a.linkButton:hover{
     display: block;
     width: 100%;
     background-color: rgb(240, 246, 246);
-    padding: 2%;
+    padding: 1%;
     margin: 2%;
     border-radius: 15px;
     color: #000;
@@ -287,7 +312,9 @@ a.linkButton:hover{
    font-weight: bold;
    color: #000000b7;
 }
-
+.education img{
+    width: 3.5em;
+}
 #contact{
     text-align: center;
     

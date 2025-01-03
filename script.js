@@ -94,13 +94,12 @@ data.expriences.forEach((exp) => {
       <card.header> 
       <h3>${edu.degree}</h3>
       </card.header>
-      <card.body>
+      ${edu.logo? `<img src="${edu.logo}" alt="${edu.institution}">`:''}
+      <div>
       <span>${edu.institution} </span>
       <span style="float: right;">${edu.years}</span>
-      </card.body>
-      <card.footer>
       <p>${edu.score}</p>
-      </card.footer>
+      </div>
     `;
     education.appendChild(eduElement);
   });
