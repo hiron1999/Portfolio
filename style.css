@@ -70,12 +70,34 @@ body{
   font-size: 4em;
   /* margin-bottom: 5%; */
 }
+#about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+    gap: 5%;
+    text-align: left;
+    /* justify-content: flex-end; */
+    background-color: #e0e3c515;
+    padding: 2%;
+    border-radius: 2em;
+    margin: 0%;
+    
+}
+#about > div>img{
 
-#about p{
-    font-size: 1.5em;
+    border-radius: 55%;
+    background-image: radial-gradient(circle at 45.47% -1.79%, #ff58ff 0, #e451ff 16.67%, #b048ff 33.33%, #783cf2 50%, #3930d1 66.67%, #0025b2 83.33%, #001c96 100%);
+    width: 250px;
+    height: auto;
+    filter: brightness(80%);
+}
+
+#about  p{
+    font-size: 1.2em;
     font-family: 'Courier New', Courier, monospace;
     
-    width:45%;
+    width:100%;
 }
 
 card{
@@ -164,6 +186,7 @@ card{
 }
 section{
     margin: 2% 0;
+    text-align: center;
 }
 section >h2{
     font-size: 2.5em;
@@ -263,4 +286,9 @@ a.linkButton:hover{
 .education p, span{
    font-weight: bold;
    color: #000000b7;
+}
+
+#contact{
+    text-align: center;
+    
 }
