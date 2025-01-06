@@ -78,12 +78,14 @@ background-position: 0 0,20px 20px;
   -webkit-text-fill-color: transparent;
   font-size: 4em;
   /* margin-bottom: 5%; */
+  text-align: center;
+  font-style: oblique;
 }
 #about{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 2%;
     gap: 2%;
     text-align: left;
@@ -98,14 +100,13 @@ background-position: 0 0,20px 20px;
 
     border-radius: 55%;
     background-image: radial-gradient(circle at 45.47% -1.79%, #ff58ff 0, #e451ff 16.67%, #b048ff 33.33%, #783cf2 50%, #3930d1 66.67%, #0025b2 83.33%, #001c96 100%);
-    width: 250px;
+    width: auto;
     height: 280px;
     filter: brightness(80%);
 }
 .desc{
-
-   width: calc(100% - 280px);
-    min-width: 400px;
+    flex: 1 1 450px;
+   
 }
 #about  p{
     font-size: 1.2em;
