@@ -1,17 +1,44 @@
 {
     "name":"Hiron",
-    "about": "Experienced Java Developer with a proven track record in building scalable, distributed systems and microservice architectures. Currently managing 55+ microservices at Accenture for critical billing and subscription platforms, leveraging Java, Spring Boot, and CI/CD tools like Bamboo and PCF. Skilled in databases (MySQL, MongoDB, Oracle) and Agile feature deployment, with achievements including automating customer billing processes, contributing to $14M monthly revenue. Certified in Google Cloud and Python, with notable open-source contributions. Passionate about delivering impactful software solutions that drive business success.","skills": ["Java", "Python", "JavaScript", "Spring Boot", "React.js", "MySQL", "MongoDB", "Oracle", "Docker", "Kubernetes", "Bamboo", "PCF", "Google Cloud", "AWS"],
-                  
+    "about": "Experienced Java Developer with a proven track record in building scalable, distributed systems and microservice architectures. Currently managing 55+ microservices at Accenture for critical billing and subscription platforms, leveraging Java, Spring Boot, and CI/CD tools like Bamboo and PCF. Skilled in databases (MySQL, MongoDB, Oracle) and Agile feature deployment, with achievements including automating customer billing processes, contributing to $14M monthly revenue. Certified in Google Cloud and Python, with notable open-source contributions. Passionate about delivering impactful software solutions that drive business success.",
+    "skills": ["Java", "Python", "JavaScript", "Spring Boot", "React.js", "MySQL", "MongoDB", "Oracle", "Docker", "Kubernetes", "Bamboo", "PCF", "Google Cloud", "AWS"],
+    "services": [
+  {
+    "name": "Web API",
+    "desc": "Design and develop RESTful and GraphQL APIs to power web and mobile applications with secure and scalable architectures.",
+    "logo" : "./media/serviceimg/api.svg"
+  },
+  {
+    "name": "Java Development",
+    "desc": "Build robust and efficient backend applications using Java, Spring Boot, and microservices for scalable software solutions.",
+    "logo" : "./media/serviceimg/java.svg"
+  },
+  {
+    "name": "Automation",
+    "desc": "Implement automation solutions for testing, deployment, and workflows using tools like Selenium, Ansible, and scripting.",
+    "logo" : "./media/serviceimg/automation.svg"
+  },
+  {
+    "name": "Scripting",
+    "desc": "Develop custom scripts in Python, Bash, or JavaScript for data processing, task automation, and system administration.",
+    "logo" : "./media/serviceimg/script.svg"
+  },
+  {
+    "name": "CI/CD",
+    "desc": "Set up continuous integration and deployment pipelines with GitHub Actions, Jenkins, and Docker for seamless software delivery.",
+    "logo" : "./media/serviceimg/cicd.svg"
+  },
+  {
+    "name": "Cloud Services",
+    "desc": "Deploy and manage cloud-based applications on AWS, Azure, or Google Cloud, optimizing for performance and cost-efficiency.",
+    "logo" : "./media/serviceimg/cloud.svg"
+  }
+    ],
     "expriences": [
         {
           "title": "Software Engineer",
           "company": "Accenture",
           "description": "Developed 55+ microservices for billing and subscription platforms, with a focus on Spring Boot and Java. Automated customer billing, contributing to $14M monthly revenue. Managed CI/CD pipelines (Bamboo, PCF) and database technologies (MySQL, MongoDB, Oracle)."
-        },
-        {
-          "title": "Software Development Intern",
-          "company": "TCS",
-          "description": "Developed a RESTful API for a banking application, enabling customer transactions and account management. Integrated third-party services for payment processing and user authentication."
         }
       ],
     "projects": [
@@ -19,13 +46,22 @@
           "name": "CourseShare",
           "description": "A platform for self-paced learning offering features like diverse course libraries, seamless video streaming, and flexible subscription plans.",
           "technologies": ["Java", "Spring Boot", "React.js", "AWS S3", "RabbitMQ"],
-          "link": "https://lnkd.in/dKX2KDXq"
+          "link": "https://lnkd.in/dKX2KDXq",
+          "image": "./media/projects/courseshare.jpg"
+          },
+        {
+          "name": "Expense-tracker",
+          "description": "Its a simple single page react app for expance monitoring .</br>Freatures : add expence , filter by year",
+          "technologies": ["React.js","css","java script"],
+          "link": "https://github.com/hiron1999/expense-tracker",
+          "image": "./media/projects/ExpanceTracker.png"
         },
         {
           "name": "AMAR SARKAR",
           "description": "An Android app providing government scheme details with user authentication, multilingual support, and dynamic data loading.",
           "technologies": ["Android", "REST APIs", "Volley", "Picasso"],
-          "link": "https://github.com/hiron1999/AMAR-SARKAR-This-is-one-window-portal-for-providing-information-about-proceedings-and-schemes-etc-"
+          "link": "https://github.com/hiron1999/AMAR-SARKAR-This-is-one-window-portal-for-providing-information-about-proceedings-and-schemes-etc-",
+          "image": "./media/projects/AMSKR.png"
         }
       ],
       "open_source": [
@@ -49,5 +85,17 @@
       "years": "2015 - 2017",
       "score": "81.4%"
     }
+  ],
+  "certification": [
+    { "cover": "https://images.credly.com/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png", "view": "https://www.credly.com/badges/f881282f-20fc-4ed3-afd4-1882d9e8b394/public_url" },
+    { "cover": "https://images.credly.com/images/6b924fae-3cd7-4233-b012-97413c62c85d/blob", "view": "https://www.credly.com/badges/6cf0eb7a-67dc-46e6-9e34-1d82657adb5b/public_url" },
+    { "cover": "./media/certificates/kubernetis.jpg", "view": "https://www.linkedin.com/learning/certificates/54611afb2f64402af3250565c5a2d019e481ff7a13bdababa3871ea2ab11fbc8" },
+    { "cover": "./media/certificates/python.jpeg", "view": "https://www.coursera.org/account/accomplishments/verify/G97TKEY3CWG8?utm_campaign=copybutton_certificate&utm_medium=certificate&utm_source=link" },
+    { "cover": "./media/certificates/kotlin.jpeg", "view": "https://www.coursera.org/account/accomplishments/verify/36HWSEC2VFHW?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" },
+    { "cover": "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/134660328", "view": "https://skillsoft.digitalbadges.skillsoft.com/b8749185-17be-4200-8b03-95a62dba64d7#acc.xJrbHEnt" },
+    { "cover": "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/134680530", "view": "https://skillsoft.digitalbadges.skillsoft.com/1525c9a4-437a-4942-a134-0d7e5c3fbefc#acc.GPz8p5jc" },
+    { "cover": "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/134412929", "view": "https://skillsoft.digitalbadges.skillsoft.com/0820b580-c16f-4c35-8b91-929cfbf86b8b#acc.Avn9IU8r" },
+    { "cover": "./media/certificates/ps.png", "view": "https://www.hackerrank.com/certificates/bd528319cf84" },
+    { "cover": "./media/certificates/Frontend.png", "view": "https://ninjasfiles.s3.amazonaws.com/certificate_a94ff5b1f5e55895_d190299bbeafe7f7c1483b737a80bbac.pdf" }
   ]
 }
