@@ -42,6 +42,15 @@
         }
       ],
     "projects": [
+      
+        {
+          "name": "Quicklearn",
+          "description": "QuickLearn AI is a privacy-focused, AI-powered assistant that runs entirely on the client side. It helps users quickly analyze and summarize large volumes of content and generates interactive quizzes for better retention—all while ensuring that sensitive data never leaves the user's device.",
+          "technologies": ["java script","Mediapipe","html","css","AI"],
+          "link": "https://github.com/hiron1999/Quicklearn/tree/main",
+          "live":"https://hiron1999.github.io/Quicklearn/",
+          "image": "./media/projects/Quicklearnpage.png"
+          },
         {
           "name": "CourseShare",
           "description": "A platform for self-paced learning offering features like diverse course libraries, seamless video streaming, and flexible subscription plans.",
